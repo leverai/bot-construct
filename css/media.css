@@ -1,0 +1,35 @@
+@media (max-width: 800px) {
+	.hero-grid{
+		grid-template-columns: 1fr;
+		grid-gap:0;
+	}
+	.hero-grid img{
+		order: -1;
+		width: 150px;
+		margin: 0 auto;
+	}
+
+
+}
+@media (max-width: 500px) {
+	.section{
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	.nav-container{
+		padding:10px 3px;
+		flex-direction: column;
+		grid-gap:10px;
+		height: unset;
+	}
+	.heading {
+		font-size: 36px !important;
+	}
+	.paragraph{
+		font-size: 17px !important;
+	}
+	nav{
+		width: 80%;
+		justify-content: space-between !important;
+	}
+}
